@@ -1,0 +1,220 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root{
+	-fx-background-color: #ffffff;
+}
+
+.label{
+	-fx-text-fill: #ffffff;
+	-fx-font-size: 16px;
+	/*-fx-text-fill: linear-gradient(#5b4dc9, #4ca3d9);
+	-fx-label-padding: 0 0 20px 0;*/
+}
+
+.button{
+	-fx-background-color: #5b4dc9;
+	-fx-pref-width: 200px;
+	-fx-pref-height: 60px;
+	-fx-text-fill: #ffffff;
+	-fx-font-size: 16px;
+	-fx-padding: 0 30px;
+}
+
+.button:hover{
+	-fx-background-color: #8f82ed;
+	-fx-cursor: hand;
+}
+
+.btn-reset{
+	-fx-background-color: #5b4dc9;
+	-fx-pref-width: 100px;
+	-fx-pref-height: 36px;
+	-fx-text-fill: #ffffff;
+	-fx-font-size: 14px;
+	-fx-padding: 0 14px;
+}
+
+.btn_reset:hover{
+	-fx-background-color: #8f82ed;
+	-fx-cursor: hand;
+}
+
+.spinner{
+	-fx-body-color: #bcc6f5;	
+	-fx-pref-width: 250px;
+	-fx-pref-height: 60px;
+	-fx-max-width: 250px;
+	-fx-max-height: 60px;
+}
+
+
+.combo-box{
+	-fx-background-color: #bcc6f5;
+	-fx-color: #ffffff;
+	-fx-pref-width: 250px;
+	-fx-pref-height: 60px;
+	-fx-max-width: 250px;
+	-fx-max-height: 60px;
+	-fx-padding: 2px 4px;
+}
+
+.combo-box .cell{
+	-fx-font: 14px "Arial";
+}
+
+.sidebar{
+	-fx-pref-width: 360px;
+	-fx-background-color: #5b4dc9;
+	-fx-padding: 20px 30px;
+}
+
+.sidebar__title{
+	-fx-font-size: 28px;
+	-fx-text-fill: #ffffff;
+	-fx-padding: 10px 0 0 0;
+}
+
+.sidebar__subtitle{
+	-fx-font-size: 18px;
+	-font-weight: bold;
+}
+
+.sidebar__tool{
+	-fx-padding: 4px 14px;
+	-fx-max-width: 240px;
+	-fx-max-height: 46px;
+	-fx-pref-width: 240px;
+	-fx-pref-height: 46px;
+	-fx-background-color: #6f60e6;
+	-fx-border-color: #ffffff;
+	-fx-border-width: 1;
+	-fx-border-radius: 5px 0 0 5px;
+	 
+}
+
+.sidebar__btn{
+	-fx-padding: 0;
+	-fx-max-height: 46px;
+	-fx-max-width: 64px;
+	-fx-pref-height: 46px;
+	-fx-pref-width: 64px;
+	-fx-background-color: #6f60e6;
+	-fx-border-color: #ffffff;
+	-fx-border-width: 1;
+	-fx-border-radius: 0 5px 5px 0;
+	-fx-font: 14px "Arial";
+}
+
+.color_palette{
+	-fx-padding: 30px 0 0 0;
+}
+
+.color_palette__btn{
+	-fx-pref-height: 40px;
+	-fx-pref-width: 40px;
+	-fx-background-color: #6f60e6;
+	-fx-border-radius: 5px;
+}
+
+.color_palette__lbl{
+	-fx-padding: 4px 14px;
+	-fx-pref-width: 150px;
+	-fx-pref-height: 46px;
+	-fx-background-color: #6f60e6;
+	-fx-border-color: #ffffff;
+	-fx-border-width: 1;
+	-fx-border-radius: 5px 0 0 5px;
+}
+
+.toolbar{
+	-fx-padding: 20px;
+	-fx-pref-width: 266px;
+	-fx-pref-height: 350px;
+	-fx-max-height: 350px;
+	-fx-background-color: #6f60e6;
+	-fx-border-radius: 5px;
+}
+
+.toolbar_polygon{
+	-fx-padding: 20px;
+	-fx-pref-width: 266px;
+	-fx-pref-height: 580px;
+	-fx-max-height: 580px;
+	-fx-background-color: #6f60e6;
+	-fx-border-radius: 5px;
+}
+
+
+.algo_line__btn{
+	-fx-pref-height: 40px;
+	-fx-pref-width: 250px;
+	-fx-background-color: #6f60e6;
+	-fx-border-color: #ffffff;
+	-fx-border-width: 1;
+	-fx-border-radius: 5px;
+}
+
+.polygon__type_box{
+	-fx-pref-width: 100%;
+}
+
+.polygon__type{
+	-fx-pref-height: 30px;
+	-fx-pref-width: 120px;
+	-fx-padding: 8px 8px;
+	-fx-font-size: 14px;
+	-fx-background-color: #6f60e6;
+	-fx-border-color: #ffffff;
+	-fx-border-width: 1;
+	-fx-border-radius: 5px;
+}
+
+.polygon__type_active{
+	-fx-backgound-color: #fafafa;
+	-fx-color: #000000;
+	-fx-pref-height: 30px;
+	-fx-pref-width: 120px;
+	-fx-padding: 8px 8px;
+	-fx-font-size: 14px;
+	-fx-border-color: #ffffff;
+	-fx-border-width: 1;
+	-fx-border-radius: 5px;
+}
+
+.polygon__chooseSides{
+	-fx-pref-height: 50px;
+	-fx-pref-width: 50px;
+	-fx-background-color: #6f60e6;
+}
+
+.picker-color{
+	-fx-pref-width: 240px;
+	-fx-pref-height: 50px;
+	-fx-max-height: 50px;
+	-fx-max-width: 240px;
+}
+
+.lbl_tip{
+	-fx-pref-width: 250px;
+	-fx-pref-height: 40px;
+	-fx-border-color: #ffffff;
+	-fx-border-width: 1;
+	-fx-border-radius: 5px;
+	-fx-padding: 3px 6px;
+	-fx-font-size: 12px;
+}
+
+.check-box-fill{
+	-fx-text-fill: #ffffff;
+}
+
+.danger{
+	-fx-background-color: #de2157;
+	-fx-pref-width: 550px;
+	-fx-pref-height: 60px;	
+}
+
+.danger:hover{
+	-fx-background-color: #ed265f;
+	-fx-cursor: hand;
+}
